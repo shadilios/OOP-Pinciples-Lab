@@ -117,13 +117,18 @@ namespace Zoo
     //**************************************************************************************
     //Children classes
 
-    class Cow : Mammal
+    class Cow : Mammal,ICanWalk
     {
         public string sound = "Moo";
 
         public Cow(int age, int weight, string food, string gender) : base(age, weight, food, gender)
         {
 
+        }
+
+        public void CanWalk()
+        {
+            Console.WriteLine($"{this} CAN WALK!");
         }
 
         public override void Eat()
@@ -151,7 +156,7 @@ namespace Zoo
         }
 
     }
-    class Sheep : Mammal
+    class Sheep : Mammal, ICanWalk
     {
         public string sound = "Baa";
 
@@ -159,29 +164,40 @@ namespace Zoo
         {
 
         }
+        public void CanWalk()
+        {
+            Console.WriteLine($"{this} CAN WALK!");
+        }
 
-        
     }
 
-    class Pigeon : Bird
+    class Pigeon : Bird, ICanFly
     {
         public string sound = "Coo";
 
         public Pigeon(int age, int weight, string food, string gender) : base(age, weight, food, gender)
         {
         }
+        public void CanFly()
+        {
+            Console.WriteLine($"{this} CAN FLY!");
+        }
     }
 
-    class Shark : Fish
+    class Shark : Fish, ICanSwim
     {
         public string sound = null;
 
         public Shark(int age, int weight, string food, string gender) : base(age, weight, food, gender)
         {
         }
+        public void CanSwim()
+        {
+            Console.WriteLine($"{this} CAN SWIM!");
+        }
     }
 
-    class Dolphin : Fish
+    class Dolphin : Fish, ICanSwim
     {
         
         public string sound = "Click or Whislte";
@@ -189,5 +205,26 @@ namespace Zoo
         public Dolphin(int age, int weight, string food, string gender) : base(age, weight, food, gender)
         {
         }
+
+        public void CanSwim()
+        {
+            Console.WriteLine($"{this} CAN SWIM!");
+        }
+    }
+
+    //Interfaces
+    interface ICanWalk
+    {
+        public void CanWalk();
+    }
+
+    interface ICanSwim
+    {
+        public void CanSwim();
+    }
+
+    interface ICanFly
+    {
+        public void CanFly();
     }
 }
