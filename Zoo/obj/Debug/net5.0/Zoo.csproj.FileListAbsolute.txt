@@ -1,0 +1,16 @@
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\bin\Debug\net5.0\Zoo.exe
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\bin\Debug\net5.0\Zoo.deps.json
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\bin\Debug\net5.0\Zoo.runtimeconfig.json
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\bin\Debug\net5.0\Zoo.runtimeconfig.dev.json
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\bin\Debug\net5.0\Zoo.dll
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\bin\Debug\net5.0\Zoo.pdb
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\obj\Debug\net5.0\Zoo.csproj.AssemblyReference.cache
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\obj\Debug\net5.0\Zoo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\obj\Debug\net5.0\Zoo.AssemblyInfoInputs.cache
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\obj\Debug\net5.0\Zoo.AssemblyInfo.cs
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\obj\Debug\net5.0\Zoo.csproj.CoreCompileInputs.cache
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\obj\Debug\net5.0\Zoo.dll
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\obj\Debug\net5.0\refint\Zoo.dll
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\obj\Debug\net5.0\Zoo.pdb
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\obj\Debug\net5.0\Zoo.genruntimeconfig.cache
+D:\Advanced-repos\OOP-Pinciples-Lab\Zoo\obj\Debug\net5.0\ref\Zoo.dll
